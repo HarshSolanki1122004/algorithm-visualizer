@@ -13,6 +13,11 @@
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-blue"></a>
 </p>
 
+<p>
+  <a href="https://www.linkedin.com/in/harsh-solanki-427799261/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Harsh%20Solanki-0A66C2?logo=linkedin&logoColor=white"></a>
+  <a href="https://leetcode.com/u/BinaryHarshh/"><img alt="LeetCode" src="https://img.shields.io/badge/LeetCode-BinaryHarshh-FFA116?logo=leetcode&logoColor=white"></a>
+</p>
+
 ---
 
 ## 📖 What is this?
