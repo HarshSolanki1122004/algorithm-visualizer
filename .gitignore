@@ -1,0 +1,41 @@
+# ===== Java / Maven (backend) =====
+target/
+*.class
+*.jar
+*.war
+!.mvn/wrapper/maven-wrapper.jar
+
+# ===== Node / Vite (frontend) =====
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# ===== Environment =====
+.env
+.env.*
+!.env.example
+
+# ===== IDEs / editors =====
+.idea/
+out/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+
+# ===== Tooling =====
+.claude/
+
+# ===== Logs =====
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
