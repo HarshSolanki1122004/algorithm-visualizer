@@ -50,7 +50,8 @@ class VisualizationControllerIntegrationTest {
                 .andExpect(jsonPath("$.totalSteps", greaterThan(0)))
                 .andExpect(jsonPath("$.comparisons", greaterThan(0)))
                 .andExpect(jsonPath("$.steps", hasSize(greaterThan(0))))
-                .andExpect(jsonPath("$.steps[-1:].array[0]", is(3)));
+                // The first recorded frame is a comparison over the original array.
+                .andExpect(jsonPath("$.steps[0].array[0]", is(12)));
     }
 
     @Test
